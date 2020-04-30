@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Achat de l'Oral-B iO</title>
+    <meta name="description"content="Formulaire de commande achat Oral-B iO ToothBrush">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="favico" href="images/favicon.png"/>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/formulaire.css">
+    <link rel="stylesheet" href="styles/simple-grid.css">
+  </head>
+  <body>
+    <div id="site-content">
+      <header id=header>
+        <nav id="nav_bar">
+          <a href="https://icezaucaramel.github.io/" class="logo-link" alt="retour accueil site web Oral-B">
+            <img src="images/oralb-logo.png" alt="logo Oral-B">
+          </a>
+          <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+          <label for="menu-checkbox" class="menu-toggle">&#9776; Menu</label>
+          <div class="menu">
+            <ul>
+              <li><a href="https://www.oralb.fr/fr-fr/nous-contacter">Assistance</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 h1">
+              <h1>Précommande Oral-B iO ToothBrush</h1>
+            </div>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="row">
+            <div class="col-8">
+              <div class="container expedition">
+                <span>&#128230; Expédition</span>
+              </div>
+              <div class="container formulaire">
+                <form>
+                  <div class="form-radio">
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="radio" checked="checked"/><i class="helper"></i>Madame
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="radio"/><i class="helper"></i>Monsieur
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Nom</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Prenom</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>E-mail</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Numéro de téléphone</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Adresse de livraison</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Ville</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Pays</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Code postal</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Votre numéro de carte</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>Date d'expiration</label><i class="bar"></i>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" required="required"/>
+                    <label for="input" class="control-label"><span class="obligatoire">*</span>CVV</label><i class="bar"></i>
+                  </div>
+                  <span class="time"> Temps restant avant la fin de la précommande : </span>
+                  <p id="demo">
+                    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+                    <script type="text/javascript" src="scripts/timer.js"></script>
+                    <script src="scripts/timer.js"></script>
+                  </p>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" checked="checked"/><i class="helper"></i>Je souhaite recevoir toutes les nouveautés concernant les brosses à dent Oral-B
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"/><i class="helper"></i><span class="obligatoire">*</span>J'accepte les <a href="https://www.pg.com/en_US/terms_conditions/index.shtml">CGV</a> (conditions générales de vente)
+                    </label>
+                  </div>
+                  <span class="champs_obligatoire"><span class="obligatoire">*</span>Champs obligatoire</span>
+                </form>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="flex-container container expedition">
+                <span>&#128722; Panier</span>
+              </div>
+              <div class="flex-container container cart-reminder">
+                <img class="prev-icon" src="images/brush-rotated.png" alt="Oral-B iO Brush Intelligence artificielle 2020 nouveau produit coloris noir">
+                <img class="prev-icon" src="images/brosse_dent.png" alt="Oral-B iO Brush Intelligence artificielle 2020 nouveau produit coloris blanc">
+                <img class="prev-icon" src="images/brosse_a_dent_rose.png" alt="Oral-B iO Brush Intelligence artificielle 2020 nouveau produit coloris blanc">
+                <img class="prev-icon" src="images/brosse_a_dent_violet.png" alt="Oral-B iO Brush Intelligence artificielle 2020 nouveau produit coloris violet">
+                <div class="prev-box col-6">
+                  <div class="prev-text">Vous avez choisi la couleur :</br>
+                    <input type="radio" name="radio" required="required"/>
+                    <label for="input" class="control-label"><span>Noir</label><i class="helper"></i></br>
+                    <input type="radio" name="radio" required="required"/>
+                    <label for="input" class="control-label"><span>Blanc</label></br>
+                    <input type="radio" name="radio" required="required"/>
+                    <label for="input" class="control-label"><span>Violet</label></br>
+                    <input type="radio" name="radio" required="required"/>
+                    <label for="input" class="control-label"><span>Rose</label>
+                  </div>
+                </div>
+                <span class="prev-title">Oral-B iO ToothBrush</span>
+                  <p>
+                    La nouvelle brosse à dents premium d'Oral-B, incluant une intelligence artificielle de détection de la pression exercée sur les gencives.
+                  </p>
+                  <div class="prev-prices">
+                    <div class="order-prices">Prix de l'article :<div class="prices-value">€ 200.00 EUR</div></div>
+                    <div class="order-prices">Coût de l'expédition :<div class="prices-value">€ 0.00 EUR</div></div>
+                    <div class="order-prices">Prix total :<div class="prices-value">€ 200.00 EUR</div></div>
+                  </div>
+                  <div class="button-container">
+                    <button type="button" class="button"><span>Commander</span></button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="background-color-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 containerr_caracteristique">
+                <h2> Les garanties Oral-B iO ToothBrush </h2>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  Notre brosse à dents est <strong>garantie 2 ans</strong>.
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  2 mois offerts, <strong>satisfait ou remboursé</strong> !
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  <strong>100% des clients</strong> ayant testés la iO ToothBrush ont <strong>amélioré la qualité de leur brossage</strong>.
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  <strong>88% des clients</strong> ayant testés la iO ToothBrush ont <strong>réduits leurs problèmes dentaires</strong>.
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  Vous bénéficiez de <strong>6 ans d'expertise et de recherche</strong>.
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  Première intégration d'une <strong>Intelligence Articielle</strong> pour vous aider à améliorer votre santé dentaire.
+                </p>
+                <p>
+                  <img src="images/validation.png" alt="petite image correspondant à une validation" class="validation">
+                  Une <strong>nouvelle vision</strong> du brossage de dents.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script src="scripts/caroussel.js"></script>
+        </div>
+      </main>
+      <footer id="site-footer">
+        <div class="footerlogo">
+          <div class="container">
+            <div class="row">
+              <div class="col-3">
+                <div class="footertext1">
+                  <a href="https://www.oralb.fr/fr-fr/nous-contacter">Obtenir de l'aide</a><br>
+                  <a href="https://azcdn.cassini.pgsitecore.com/fr-fr/-/media/OralB_FR/PDF/d%C3%A9clarations%20de%20conformit%C3%A9%20France.pdf?v=1-201606100859">Conformité CE</a><br>
+                  <a href="https://www.pg.com/privacy/french/privacy_statement.shtml">Notification de confidentialité</a>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="footertext1">
+                  <a href="https://fr.pg.com">Mentions légales</a><br>
+                  <a href="https://www.pg.com/fr_FR/terms_conditions/index.shtml">Conditions d'utilisations</a>
+                  <a href="https://www.oralb.fr/fr-fr/plan-du-site">Plan du site</a><br>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="footertext1">
+                  <a href="">Caractéristique</a><br>
+                  <a href="">Précommander</a><br>
+                  <a href="https://www.service.braun.com/home.asp?rg=EU&c=FR&l=FR&typ=h">Service Après Vente</a>
+                </div>
+              </div>
+              <div class="col-3">
+                <span><h4>RETROUVEZ NOUS</h1></span>
+                <a href="https://fr-fr.facebook.com/oralbfrance/" target=_blank><img src="images/sociaux/facebook.png" alt="facebook" class="logo"/></a>
+                <a href="https://www.instagram.com/oralb/?hl=fr" target=_blank><img src="images/sociaux/Instagram.png" alt="Instagram" class="logo"/></a>
+                <a href="https://twitter.com/oralb?lang=fr" target=_blank><img src="images/sociaux/twitter.png" alt="twitter" class="logo"/></a>
+              </div>
+            </div>
+            <div class="ffooter">
+              <span class="ffooter">© 2020 <a href="https://fr.pg.com/">Procter & Gamble</a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>
